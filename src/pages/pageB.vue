@@ -1,9 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import BaseStacks from '@/components/BaseStacks.vue'
+</script>
 
 <template>
-  <div class="flex flex-col items-center justify-center">
-    <h1>Page B</h1>
-  </div>
+  <BaseStacks />
 </template>
 
 <style scoped></style>
